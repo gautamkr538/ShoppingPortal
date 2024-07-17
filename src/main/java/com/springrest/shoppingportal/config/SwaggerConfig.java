@@ -12,9 +12,9 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Spring Boot REST API")
+                        .title("Shopping Portal REST API")
                         .version("1.0")
-                        .description("Documentation for the Spring Boot REST API"));
+                        .description("Documentation for the Shopping Portal REST API"));
     }
 }
 
